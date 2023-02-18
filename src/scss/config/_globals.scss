@@ -1,0 +1,53 @@
+@use '../abstracts' as abs;
+
+$font-family-default:   "", Helvetica, sans-serif;
+$font-family-heading:   "", Times, serif;
+$font-family-accent:    "", Times, serif;
+
+$font-weight-default:   abs.font-weight(4);
+$font-weight-heading:   abs.font-weight(7);
+
+$font-size-root:        16px;
+$font-size-default:     abs.font-size(4);
+$font-size-h6:          abs.font-size(6);
+$font-size-h5:          abs.font-size(8);
+$font-size-h4:          abs.font-size(12);
+$font-size-h3:          abs.font-size(16);
+$font-size-h2:          abs.font-size(20);
+$font-size-h1:          abs.font-size(24);
+
+
+
+
+$fonts-folder: "../assets/fonts";
+$font-faces: [
+    (
+        family: "Open Sans",
+        folder: "OpenSans",
+        files: [
+            (
+                style: normal,
+                weight: 400,
+                format: truetype,
+                filename: "OpenSans-Regular.ttf"
+            ),
+        ]
+    ),
+];
+
+
+
+
+$colors: (
+    dark: (
+        400: #000,
+    ),
+    light: (
+        400: #fff,
+    ),
+    accent: (
+        400: #999,
+    )
+);
+
+
