@@ -1,8 +1,8 @@
 @use '../abstracts' as abs;
 
-$font-family-default:   "", Helvetica, sans-serif;
-$font-family-heading:   "", Times, serif;
-$font-family-accent:    "", Times, serif;
+$font-family-default:   "Open Sans", Helvetica, sans-serif;
+$font-family-heading:   "Oswald", Times, serif;
+$font-family-accent:    "Oswald", Times, serif;
 
 $font-weight-default:   abs.font-weight(4);
 $font-weight-heading:   abs.font-weight(7);
@@ -27,9 +27,21 @@ $font-faces: [
         files: [
             (
                 style: normal,
-                weight: 400,
+                weight: 300,
                 format: truetype,
-                filename: "OpenSans-Regular.ttf"
+                filename: "OpenSans-Light.ttf"
+            ),
+        ]
+    ),
+    (
+        family: "Oswald",
+        folder: "Oswald",
+        files: [
+            (
+                style: normal,
+                weight: 300,
+                format: truetype,
+                filename: "Oswald-Light.ttf"
             ),
         ]
     ),

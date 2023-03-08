@@ -8,6 +8,8 @@
             --color-#{$color}-#{$shade}: #{$color-code};
         }
     }
+    --color-bg: var(--color-light-400, white);
+    --color-fg: var(--color-dark-400, black);
 }
 
 
@@ -17,8 +19,6 @@
 }
 
 .theme-light {
-    --color-bg: var(--color-light-400, white);
-    --color-fg: var(--color-dark-400, black);
 }
 
 body {
